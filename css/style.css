@@ -15,6 +15,7 @@ p {
 
 h5 {
     font-weight: bold;
+    margin-top: 1.3rem;
 }
 
 /*HEADER*/
@@ -45,7 +46,7 @@ h5 {
 }
 
 .col-md-4 {
-    padding:5%;
+    padding:4%;
 }
 .brand .col-md-4 figure {
     
@@ -83,14 +84,9 @@ h5 {
 .circle .image {
     margin: auto;
 }
-#features h5, p {
+.col-md-4 > p {
     margin: 15px;
 }
-
-#features #form h5 {
-    font-weight: bold;
-}
-
 
 /*FORM*/
 #form {
@@ -100,13 +96,12 @@ h5 {
 #form .row {
     width: 90%;
        margin: 0 auto;
-       padding: 5%;
+       padding: 4%;
+}
+.text-box {
+    width: 70%;
 }
 
-.box {
-    text-align: left;
-    
-}
 
 .col-6 iframe {
     border-radius: 10px;
