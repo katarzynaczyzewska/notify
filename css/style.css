@@ -9,21 +9,27 @@ body {
     margin: 0;
     border-top: 10px solid #2EEE90;
 }
+p {
+    color:#777;
+}
+
+h5 {
+    font-weight: bold;
+}
 
 /*HEADER*/
 .carousel-caption {
     width: 35%;
     top: 25%;
-    padding: 15px;
+    padding: 5%;
 }
 
 
 .brand {
  color: #FFFF;
  text-align: left;
- 
-
 }
+
 .brand .logo {
     height: 85px;
     margin-bottom: 5%;
@@ -59,16 +65,10 @@ body {
 
 /*FEATURES*/
     #features {
-        height: 100vh;
        width: 90%;
        margin: 0 auto;
-    }
-    #features .row .col-md-4{ 
        text-align: center;
-       margin: 0 auto;
-       align-items: center;
     }
-
 
 .circle{
     width: 80px;
@@ -87,9 +87,41 @@ body {
     margin: 15px;
 }
 
-#features h5 {
+#features #form h5 {
     font-weight: bold;
 }
-#features p {
-    color:#777;
+
+
+/*FORM*/
+#form {
+    background-color: #D9DAE3;
+}
+
+#form .row {
+    width: 90%;
+       margin: 0 auto;
+       padding: 5%;
+}
+
+.box {
+    text-align: left;
+    
+}
+
+.col-6 iframe {
+    border-radius: 10px;
+    border: none;
+}
+
+
+.form-container {
+    width:80%;
+}
+
+.form-container input, button {
+
+    padding: 3% 10% 3% 10%;
+    border-radius: 12px;
+    margin: 0;
+    border:0;
 }
