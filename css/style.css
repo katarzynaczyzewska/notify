@@ -16,7 +16,7 @@ p {
 
 h5 {
     font-weight: bold;
-    margin-top: 1.3rem;
+    margin: 1.3rem;
 }
 
 /*HEADER*/
@@ -78,6 +78,7 @@ h5 {
     margin: auto;
     display: flex;
     align-items: center;
+
 }
 
 .circle .image {
@@ -138,10 +139,8 @@ h5 {
 
 #contact article {
     text-align: center;
-    padding: 5%;
+    padding-top: 5%;
 }
-
-
 
 #contact .gallery{
     width:100%;
@@ -160,6 +159,28 @@ h5 {
     color:#9c9a9a;
 }
 
+.social {
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.social .col{
+
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color:#e3e3e3;
+    margin: 0.5rem;
+    text-align: center;
+}
+
+.social img {
+    height: 15px;
+    margin: auto;
+}
+
+
 
 /*FOOTER*/
 
@@ -174,13 +195,14 @@ h5 {
 }
 .list {
     margin: 0;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
  .list>li {
-    padding: 3%;
+    padding: 1.5%;
     display: inline;
  }
 
 .list a {
-    color:#9c9a9a;
-    
+    color:#9c9a9a; 
 }
